@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonah Sussman</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <script type="module" src="wc/JNav.js"></script>
+  <script type="module" src="wc/JFooter.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="cg/chessground.css">
+  <link rel="stylesheet" href="cg/theme.css">
+</head>
+<body>
+  <j-nav></j-nav>
+
+  <main>
+    <div class="card sw-green-dark stack">
+      <h1 class="crazy-inherit">badchess</h1>
+      <p>Have you ever wanted to play against a bunch of bad chess algorithms? Well you're in luck!</p>
+    </div>
+    
+    <div class="card sw-green-dark stack">
+      <div class="crazy-green cburnett-white cburnett-black"><div id="board" class="cg-wrap manipulable"></div></div>
+
+      <button class="btn sw-default" onclick="cg_reset();">RESET</button>
+    </div>
+
+    <script src="cg/chessground.min.js"></script>
+    <script>
+      let config = { resizable: true };
+      let cg = Chessground(document.getElementById('board'), config);
+
+      function cg_reset() {
+        cg = Chessground(document.getElementById('board'), config);
+      }
+    </script>
+  </main>
+
+  <j-footer></j-footer>
+</body>
+</html>

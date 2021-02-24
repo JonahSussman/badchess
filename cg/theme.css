@@ -1,0 +1,124 @@
+/*
+ * Board
+ */
+.blue .cg-wrap {
+  background-image: url('images/board/blue.svg');
+}
+
+.crazy-green .cg-wrap {
+  background-image: url('images/board/crazy-green.svg');
+}
+
+.merida-white .cg-wrap piece.pawn.white {
+  background-image: url('images/pieces/merida/wP.svg');
+}
+.merida-white .cg-wrap piece.bishop.white {
+  background-image: url('images/pieces/merida/wB.svg');
+}
+.merida-white .cg-wrap piece.knight.white {
+  background-image: url('images/pieces/merida/wN.svg');
+}
+.merida-white .cg-wrap piece.rook.white {
+  background-image: url('images/pieces/merida/wR.svg');
+}
+.merida-white .cg-wrap piece.queen.white {
+  background-image: url('images/pieces/merida/wQ.svg');
+}
+.merida-white .cg-wrap piece.king.white {
+  background-image: url('images/pieces/merida/wK.svg');
+}
+.merida-black .cg-wrap piece.pawn.black {
+  background-image: url('images/pieces/merida/bP.svg');
+}
+.merida-black .cg-wrap piece.bishop.black {
+  background-image: url('images/pieces/merida/bB.svg');
+}
+.merida-black .cg-wrap piece.knight.black {
+  background-image: url('images/pieces/merida/bN.svg');
+}
+.merida-black .cg-wrap piece.rook.black {
+  background-image: url('images/pieces/merida/bR.svg');
+}
+.merida-black .cg-wrap piece.queen.black {
+  background-image: url('images/pieces/merida/bQ.svg');
+}
+.merida-black .cg-wrap piece.king.black {
+  background-image: url('images/pieces/merida/bK.svg');
+}
+
+
+.horsey-white .cg-wrap piece.pawn.white {
+  background-image: url('images/pieces/horsey/wP.svg');
+}
+.horsey-white .cg-wrap piece.bishop.white {
+  background-image: url('images/pieces/horsey/wB.svg');
+}
+.horsey-white .cg-wrap piece.knight.white {
+  background-image: url('images/pieces/horsey/wN.svg');
+}
+.horsey-white .cg-wrap piece.rook.white {
+  background-image: url('images/pieces/horsey/wR.svg');
+}
+.horsey-white .cg-wrap piece.queen.white {
+  background-image: url('images/pieces/horsey/wQ.svg');
+}
+.horsey-white .cg-wrap piece.king.white {
+  background-image: url('images/pieces/horsey/wK.svg');
+}
+.horsey-black .cg-wrap piece.pawn.black {
+  background-image: url('images/pieces/horsey/bP.svg');
+}
+.horsey-black .cg-wrap piece.bishop.black {
+  background-image: url('images/pieces/horsey/bB.svg');
+}
+.horsey-black .cg-wrap piece.knight.black {
+  background-image: url('images/pieces/horsey/bN.svg');
+}
+.horsey-black .cg-wrap piece.rook.black {
+  background-image: url('images/pieces/horsey/bR.svg');
+}
+.horsey-black .cg-wrap piece.queen.black {
+  background-image: url('images/pieces/horsey/bQ.svg');
+}
+.horsey-black .cg-wrap piece.king.black {
+  background-image: url('images/pieces/horsey/bK.svg');
+}
+
+
+.cburnett-white .cg-wrap piece.pawn.white {
+  background-image: url('images/pieces/cburnett/wP.svg');
+}
+.cburnett-white .cg-wrap piece.bishop.white {
+  background-image: url('images/pieces/cburnett/wB.svg');
+}
+.cburnett-white .cg-wrap piece.knight.white {
+  background-image: url('images/pieces/cburnett/wN.svg');
+}
+.cburnett-white .cg-wrap piece.rook.white {
+  background-image: url('images/pieces/cburnett/wR.svg');
+}
+.cburnett-white .cg-wrap piece.queen.white {
+  background-image: url('images/pieces/cburnett/wQ.svg');
+}
+.cburnett-white .cg-wrap piece.king.white {
+  background-image: url('images/pieces/cburnett/wK.svg');
+}
+.cburnett-black .cg-wrap piece.pawn.black {
+  background-image: url('images/pieces/cburnett/bP.svg');
+}
+.cburnett-black .cg-wrap piece.bishop.black {
+  background-image: url('images/pieces/cburnett/bB.svg');
+}
+.cburnett-black .cg-wrap piece.knight.black {
+  background-image: url('images/pieces/cburnett/bN.svg');
+}
+.cburnett-black .cg-wrap piece.rook.black {
+  background-image: url('images/pieces/cburnett/bR.svg');
+}
+.cburnett-black .cg-wrap piece.queen.black {
+  background-image: url('images/pieces/cburnett/bQ.svg');
+}
+.cburnett-black .cg-wrap piece.king.black {
+  background-image: url('images/pieces/cburnett/bK.svg');
+}
+

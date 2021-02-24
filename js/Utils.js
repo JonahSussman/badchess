@@ -1,0 +1,1 @@
+let href=(l)=>window.location.href=l;
